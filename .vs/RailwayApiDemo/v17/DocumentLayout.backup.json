@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\My Notes\\CI-CD\\RailwayApiDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ACD1FBF8-6E3C-43AF-8D1C-1B4D3BB41683}|RailwayApiDemo\\RailwayApiDemo.csproj|d:\\my notes\\ci-cd\\railwayapidemo\\railwayapidemo\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ACD1FBF8-6E3C-43AF-8D1C-1B4D3BB41683}|RailwayApiDemo\\RailwayApiDemo.csproj|solutionrelative:railwayapidemo\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ACD1FBF8-6E3C-43AF-8D1C-1B4D3BB41683}|RailwayApiDemo\\RailwayApiDemo.csproj|d:\\my notes\\ci-cd\\railwayapidemo\\railwayapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACD1FBF8-6E3C-43AF-8D1C-1B4D3BB41683}|RailwayApiDemo\\RailwayApiDemo.csproj|solutionrelative:railwayapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\My Notes\\CI-CD\\RailwayApiDemo\\RailwayApiDemo\\Dockerfile",
+              "RelativeDocumentMoniker": "RailwayApiDemo\\Dockerfile",
+              "ToolTip": "D:\\My Notes\\CI-CD\\RailwayApiDemo\\RailwayApiDemo\\Dockerfile",
+              "RelativeToolTip": "RailwayApiDemo\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-16T23:59:38.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Notes\\CI-CD\\RailwayApiDemo\\RailwayApiDemo\\Program.cs",
               "RelativeDocumentMoniker": "RailwayApiDemo\\Program.cs",

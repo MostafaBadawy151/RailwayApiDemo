@@ -1,17 +1,17 @@
-# Build stage
+# Stage 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /app
+WORKDIR /src
 
-# Copy only the csproj and restore dependencies
-COPY RailwayApiDemo/*.csproj ./RailwayApiDemo/
-RUN dotnet restore RailwayApiDemo/RailwayApiDemo.csproj
+# Copy csproj and restore dependencies
+COPY RailwayApiDemo.csproj ./
+RUN dotnet restore RailwayApiDemo.csproj
 
-# Copy the full project and build
+# Copy everything else and build
 COPY . .
-RUN dotnet publish RailwayApiDemo/RailwayApiDemo.csproj -c Release -o /out
+RUN dotnet publish RailwayApiDemo.csproj -c Release -o /app/publish
 
-# Runtime stage
+# Stage 2: Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
-COPY --from=build /out ./
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "RailwayApiDemo.dll"]
